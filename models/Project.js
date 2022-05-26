@@ -10,15 +10,18 @@ Underscoreid:String ,
 pTitle:String , 
 
 
-pDescription:String , 
-
-
 pImage:  
 ProjectPImageSchema
  , 
 
 
-pEnd:Date 
+pStart:String , 
+
+
+pEnd:Date , 
+
+
+pDescription:String 
 
 
 

@@ -132,6 +132,7 @@ components:
   schemas:
     project:
       example:
+        pStart: pStart
         pTitle: pTitle
         pEnd: 2000-01-23
         _id: _id
@@ -144,17 +145,20 @@ components:
           type: string
         pTitle:
           type: string
-        pDescription:
-          type: string
         pImage:
           $ref: '#/components/schemas/project_pImage'
+        pStart:
+          type: string
         pEnd:
           format: date
+          type: string
+        pDescription:
           type: string
       required:
       - pDescription
       - pEnd
       - pImage
+      - pStart
       - pTitle
       type: object
     project_pImage:
