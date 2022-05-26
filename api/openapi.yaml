@@ -144,10 +144,10 @@ components:
           type: string
         pTitle:
           type: string
-        pImage:
-          $ref: '#/components/schemas/project_pImage'
         pDescription:
           type: string
+        pImage:
+          $ref: '#/components/schemas/project_pImage'
         pEnd:
           format: date
           type: string
