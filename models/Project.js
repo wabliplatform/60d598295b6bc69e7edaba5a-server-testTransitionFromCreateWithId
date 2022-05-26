@@ -15,13 +15,10 @@ ProjectPImageSchema
  , 
 
 
-pStart:String , 
+pDescription:String , 
 
 
-pEnd:Date , 
-
-
-pDescription:String 
+pEnd:Date 
 
 
 
